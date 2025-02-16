@@ -1,7 +1,15 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Welcome</PageTitle>
 
 <h1>Hello CLI</h1>
 
 How are you? Is everything good?
+
+@{
+    var amount = 10;
+}
+
+<Counter IncrementAmount="amount"/>
+
+<Weather />
